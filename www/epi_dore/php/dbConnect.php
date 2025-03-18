@@ -1,6 +1,6 @@
 <?php
 
-require("identifiant.php");
+require(__DIR__ . "/../secure/identifiant.php");
 
 try {
     $dbPizza = new PDO("mysql:host=".$DBHOST.";dbname=".$DBNAME, $DBUSER, $DBPASSWORD);
