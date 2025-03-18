@@ -1,7 +1,7 @@
 <?php
 if(isset($_SESSION["email"])) {
     
-    echo '<a href="logout.php">Déconnexion</a>';
+    echo '<a href="php/logout.php">Déconnexion</a>';
     
     //On est connecté
 }

@@ -6,7 +6,8 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzzzzzzza</title>
+    <link rel="icon" href="../images/logo.png" sizes="32x32" type="image/png">
+    <title>Acceil - Epi Dore</title>
 </head>
 <body>
     <?php require(__DIR__ . "/php/menu.php"); ?>
